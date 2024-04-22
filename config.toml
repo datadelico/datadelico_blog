@@ -1,0 +1,36 @@
+title = "Datadelico"
+baseURL = "https://datadelico.com"
+languageCode = "es"
+theme = 'ananke'
+resourceDir = "../resources"
+
+DefaultContentLanguage = "es"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages.es]
+  title = ""
+  weight = 1
+  contentDir = "content/"
+    # languageDirection = 'rtl' for Right-To-Left languages
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = "fff"
+  author = "Esteban"
+  favicon = ""
+  site_logo = ""
+  description = "Datadélic podria ser un espai on s'exploren els aspectes més enigmàtics i fascinants de les dades."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/Datadelico"
