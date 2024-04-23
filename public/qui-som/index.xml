@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qui-soms on </title>
+    <link>https://datadelico.com/qui-som/</link>
+    <description>Recent content in Qui-soms on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 22 Apr 2024 22:06:58 +0200</lastBuildDate><atom:link href="https://datadelico.com/qui-som/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qui Som</title>
+      <link>https://datadelico.com/qui-som/qui-som/</link>
+      <pubDate>Mon, 22 Apr 2024 22:06:58 +0200</pubDate>
+      
+      <guid>https://datadelico.com/qui-som/qui-som/</guid>
+      <description>Soc una persona interasada per la informatica que vol provar a fer un blog.</description>
+    </item>
+    
+  </channel>
+</rss>
