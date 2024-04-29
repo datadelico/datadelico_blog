@@ -24,7 +24,7 @@ enableRobotsTXT = true
 
 [params]
   text_color = "fff"
-  author = "Esteban"
+  author = ""
   favicon = ""
   site_logo = ""
   description = "Datadelico podría ser un espacio en el que se exploran los aspectos más misteriosos y fascinantes de los datos."
@@ -33,5 +33,5 @@ enableRobotsTXT = true
   recent_posts_number = 3
 
 [[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/datadelico"
+# name = "twitter"
+# url = "https://twitter.com/datadelico"
