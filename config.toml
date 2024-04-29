@@ -12,7 +12,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.es]
-    title = ""
+    title = "Datadelico"
     weight = 1
     contentDir = "content/"
     # languageDirection = 'rtl' para lenguas de derecha a izquierda
