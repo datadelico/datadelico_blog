@@ -6,15 +6,16 @@ resourceDir = "../resources"
 
 DefaultContentLanguage = "es"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 3 # esto se establece en un número bajo para mostrar con contenido ficticio. Establezcalo en un número más alto
 googleAnalytics = ""
 enableRobotsTXT = true
 
-[languages.es]
-  title = ""
-  weight = 1
-  contentDir = "content/"
-    # languageDirection = 'rtl' for Right-To-Left languages
+[languages]
+  [languages.es]
+    title = ""
+    weight = 1
+    contentDir = "content/"
+    # languageDirection = 'rtl' para lenguas de derecha a izquierda
 
 [sitemap]
   changefreq = "monthly"
@@ -26,11 +27,11 @@ enableRobotsTXT = true
   author = "Esteban"
   favicon = ""
   site_logo = ""
-  description = "Datadélic podria ser un espai on s'exploren els aspectes més enigmàtics i fascinants de les dades."
-  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  description = "Datadelico podría ser un espacio en el que se exploran los aspectos más misteriosos y fascinantes de los datos."
+  # selecciona un color de fondo de cualquiera de esta página: https://tachyons.io/docs/themes/skins/ y prefícialo con "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 3
 
 [[params.ananke_socials]]
 name = "twitter"
-url = "https://twitter.com/Datadelico"
+url = "https://twitter.com/datadelico"

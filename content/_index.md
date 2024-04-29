@@ -2,10 +2,9 @@
 title: "Datadelico"
 type: page
 menu: main
-description: "Datadélic podria ser un espai on s'exploren els aspectes més enigmàtics i fascinants de les dades."
-# 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
+description: "Datadélico es un espacio aun por definir o descubrir. En este espacio podrás encontrar mi reflexiones sobre mi trabajo, mis proyectos personales y mi pasión por la informática. Aquí podrás leer sobre mis intereses, mis historias y mis experiencias en el mundo."
 theme_version: '2.8.2'
 cascade:
   featured_image: '/images/pacman.jpg'
 ---
-Benvinguts al meu blog amb algunes de les meves feines en progrés. Estat treballant en aquesta idea.
+Bienvenidos a mi blog con algunos de mis trabajos en progreso. Estoy trabajando en esta idea.
