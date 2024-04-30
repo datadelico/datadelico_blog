@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
+    <title>Posts on Datadelico</title>
     <link>https://datadelico.com/posts/</link>
-    <description>Recent content in Posts on </description>
+    <description>Recent content in Posts on Datadelico</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Mon, 22 Apr 2024 22:11:37 +0200</lastBuildDate><atom:link href="https://datadelico.com/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,16 +13,8 @@
       <pubDate>Mon, 22 Apr 2024 22:11:37 +0200</pubDate>
       
       <guid>https://datadelico.com/posts/primera-entrada/</guid>
-      <description>Benvinguts al nostre blog! Aquesta és la nostra primera entrada, on parlarem de [tema de la entrada].</description>
-    </item>
-    
-    <item>
-      <title>Tercera Entrada</title>
-      <link>https://datadelico.com/posts/tercera-entrada/</link>
-      <pubDate>Mon, 22 Apr 2024 22:11:37 +0200</pubDate>
-      
-      <guid>https://datadelico.com/posts/tercera-entrada/</guid>
-      <description></description>
+      <description>Bienvenidos a mi blog! Esta es mi primera entrada, en la cual empiezo una aventura que espero sea larga y fructífera.
+En primer lugar, espero que algo de lo que escriba por aquí te sea útil. Me interesa en el área de la tecnología de la información, y espero que este blog me permita aprender más sobre los inicios de estas o las últimas tendencias en esta área. En segundo lugar, para aprender sobre cómo funciona la estructura de directorios y los archivos que Hugo utiliza.</description>
     </item>
     
   </channel>
