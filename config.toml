@@ -1,8 +1,8 @@
 title = "Datadelico"
 baseURL = "https://datadelico.com"
 languageCode = "es"
-theme = 'ananke'
-resourceDir = "../resources"
+theme = "ananke"
+resourceDir = "./resources"
 
 DefaultContentLanguage = "es"
 SectionPagesMenu = "main"
