@@ -2,18 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Datadelico</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://datadelico.com/posts/</link>
     <description>Recent content in Posts on Datadelico</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 22 Apr 2024 22:11:37 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Apr 2024 22:11:37 +0200</lastBuildDate><atom:link href="https://datadelico.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primera Entrada</title>
-      <link>http://localhost:1313/posts/primera-entrada/</link>
+      <link>https://datadelico.com/posts/primera-entrada/</link>
       <pubDate>Mon, 22 Apr 2024 22:11:37 +0200</pubDate>
-      <guid>http://localhost:1313/posts/primera-entrada/</guid>
-      <description>&lt;p&gt;Bienvenidos a mi blog! Esta es mi primera entrada, en la cual empiezo una aventura que espero sea larga y fructífera.&lt;/p&gt;&#xA;&lt;p&gt;En primer lugar, espero que algo de lo que escriba por aquí te sea útil. Me interesa en el área de la tecnología de la información, y espero que este blog me permita aprender más sobre los inicios de estas o las últimas tendencias en esta área.&#xA;En segundo lugar, para aprender sobre cómo funciona la estructura de directorios y los archivos que Hugo utiliza. Espero que este blog me permita entender más sobre cómo funciona esta estructura, y cómo pueda adaptarla a mis necesidades.&#xA;Por último, me permita poco a poco adentrarme en el mundo del blog y profundizar en sus tecnologías a futuro.&#xA;Es una aventura en la cual espero que este blog os sea interesante, y que algún día pueda recordar este inicio con alegría.&lt;/p&gt;</description>
+      
+      <guid>https://datadelico.com/posts/primera-entrada/</guid>
+      <description>Bienvenidos a mi blog! Esta es mi primera entrada, en la cual empiezo una aventura que espero sea larga y fructífera.
+En primer lugar, espero que algo de lo que escriba por aquí te sea útil. Me interesa en el área de la tecnología de la información, y espero que este blog me permita aprender más sobre los inicios de estas o las últimas tendencias en esta área. En segundo lugar, para aprender sobre cómo funciona la estructura de directorios y los archivos que Hugo utiliza.</description>
     </item>
+    
   </channel>
 </rss>
