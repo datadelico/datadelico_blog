@@ -2,9 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quien soy on Datadelico</title>
-    <link>https://datadelico.com/quien-soy/</link>
+    <link>http://localhost:1313/quien-soy/</link>
     <description>Recent content in Quien soy on Datadelico</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="https://datadelico.com/quien-soy/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 22 Apr 2024 22:09:17 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/quien-soy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contacte</title>
+      <link>http://localhost:1313/quien-soy/contacto/</link>
+      <pubDate>Mon, 22 Apr 2024 22:09:17 +0200</pubDate>
+      <guid>http://localhost:1313/quien-soy/contacto/</guid>
+      <description>&lt;p&gt;En procés de construcció&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
   </channel>
 </rss>
