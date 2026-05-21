@@ -8,7 +8,7 @@ Blog personal multilingüe construido con [Hugo](https://gohugo.io/) y desplegad
 
 | Herramienta | Versión | Rol |
 |-------------|---------|-----|
-| [Hugo](https://gohugo.io/) | ≥ 0.110 (Extended recomendado) | Generador de sitio estático |
+| [Hugo](https://gohugo.io/) | ≥ 0.110 Extended (Debian 13: `0.131.0` via apt) | Generador de sitio estático |
 | [hugo-coder](https://github.com/luizdepra/hugo-coder) | ~2.8.x (git submodule) | Tema |
 | [Cloudflare Pages](https://pages.cloudflare.com/) | — | Hosting / CDN / despliegue |
 | Markdown / Goldmark | bundled con Hugo | Formato de contenido |
@@ -45,23 +45,31 @@ datadelico_blog/
 
 ### 1. Requisitos previos
 
-Instala **Hugo Extended**:
+Instala **Hugo Extended** y **git**:
+
+```bash
+# Debian 13 (Trixie) — apt incluye Hugo Extended 0.131.0 directamente
+sudo apt update && sudo apt install hugo git
+
+# Verificar que es Extended
+hugo version   # debe mostrar "hugo v0.131.0+extended"
+```
+
+<details>
+<summary>Otras plataformas</summary>
 
 ```bash
 # macOS (Homebrew)
 brew install hugo
 
-# Linux (apt)
-sudo apt install hugo
-
 # Windows (Scoop)
 scoop install hugo-extended
 
-# Verificar versión Extended
-hugo version   # debe mostrar +extended
+# Cualquier Linux — descargar el .deb Extended oficial de GitHub
+wget https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_extended_0.131.0_linux-amd64.deb
+sudo dpkg -i hugo_extended_0.131.0_linux-amd64.deb
 ```
-
-Asegúrate también de tener `git` instalado.
+</details>
 
 ### 2. Clonar el repositorio con el submodule del tema
 
@@ -179,7 +187,7 @@ Configuración recomendada en el dashboard de Cloudflare Pages:
 | Framework preset | Hugo |
 | Build command | `hugo --gc --minify` |
 | Build output directory | `public` |
-| Environment variable `HUGO_VERSION` | `0.124.1` |
+| Environment variable `HUGO_VERSION` | `0.131.0` |
 | Environment variable `HUGO_ENV` | `production` |
 
 ---
