@@ -175,9 +175,14 @@ weight = 2
 url = "posts/"
 
 [[languages.es.menu.main]]
+name = "Write-ups"
+weight = 3
+url = "writeups/"
+
+[[languages.es.menu.main]]
 name = "Contacto"
-weight = 5
-url = "quien-soy/contacto/"
+weight = 4
+url = "contacto/"
 
 [languages.en]
 languageName = "🇬🇧"
@@ -200,9 +205,14 @@ weight = 2
 url = "posts/"
 
 [[languages.en.menu.main]]
+name = "Write-ups"
+weight = 3
+url = "writeups/"
+
+[[languages.en.menu.main]]
 name = "Contact"
-weight = 5
-url = "quien-soy/contacto/"
+weight = 4
+url = "contacto/"
 
 [sitemap]
   changefreq = "monthly"
