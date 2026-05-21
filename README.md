@@ -198,16 +198,38 @@ El contenido en español usa el archivo base (`_index.md`, `primera-entrada.md`)
 
 ---
 
-## Taxonomías disponibles
+## Front matter de las entradas
 
-Definidas en `config.toml`. Úsalas en el front matter de tus posts:
+Cada archivo Markdown comienza con un bloque de metadatos llamado **front matter** (delimitado por `---`). Estos son los campos disponibles:
+
+| Campo | Descripción |
+|-------|-------------|
+| `title` | Título visible de la entrada |
+| `date` | Fecha de publicación |
+| `draft` | `true` = borrador (no se publica); `false` = publicado |
+| `description` | Resumen breve que aparece en listados y SEO |
+| `slug` | Fragmento final de la URL (p. ej. `slug: "intro"` → `/blog/intro/`). Si se omite, Hugo usa el nombre del archivo |
+| `tags` | Etiquetas específicas del contenido (ej. `["linux", "bash"]`). Genera páginas en `/tags/<tag>/` |
+| `categories` | Agrupación temática amplia (ej. `["tutoriales"]`). Genera páginas en `/categories/<cat>/` |
+| `series` | Agrupa entradas relacionadas en una serie (ej. `["Mi serie"]`) |
+| `authors` | Autor/es de la entrada |
+
+### Diferencia entre `tags` y `categories`
+
+- **`tags`**: etiquetas granulares y específicas. Pueden ser varias por entrada. Ejemplo: `bash`, `nmap`, `ctf`.
+- **`categories`**: agrupación general. Normalmente 1-2 por entrada. Ejemplo: `writeups`, `tutoriales`.
+
+> En este proyecto las secciones (`blog/`, `writeups/`) ya agrupan el contenido por tipo, por lo que `categories` es opcional. Los `tags` sí son útiles para relacionar entradas por tema.
+
+### Ejemplo completo
 
 ```yaml
 ---
 title: "Mi post"
 date: 2025-01-01
 draft: false
-type: post
+description: "Breve descripción del contenido."
+slug: "mi-post"
 tags: ["hugo", "blog"]
 categories: ["tecnología"]
 series: ["Mi serie"]

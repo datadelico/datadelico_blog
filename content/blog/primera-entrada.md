@@ -1,8 +1,12 @@
 ---
 title: "Primera Entrada"
 date: 2024-04-22T22:11:37+02:00
-type: post
 draft: false
+description: "Bienvenidos a mi blog. Una pequeña introducción sobre qué encontrarás en este espacio."
+slug: "primera-entrada"
+tags: ["blog", "hugo", "personal"]
+categories: []
+series: []
 ---
 
 Bienvenidos a mi blog! Esta es mi primera entrada, en la cual empiezo una aventura.
