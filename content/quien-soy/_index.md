@@ -2,12 +2,11 @@
 title: "Quién soy"
 type: page
 ---
-Soy una persona apasionada por la informática, la ciberseguridad y los datos. Me interesa explorar tanto el lado técnico como el creativo de la tecnología: desde la programación y los sistemas hasta el análisis de datos y la seguridad.
+Me apasiona el mundo de la tecnología, la seguridad digital y el análisis de información. Me interesa comprender cómo funcionan los sistemas y aplicar ese conocimiento en distintos ámbitos técnicos.
 
-Me gusta aprender de forma práctica, cacharrear con máquinas, entender cómo funcionan las cosas por dentro y compartir lo que voy descubriendo por el camino.
+Disfruto aprender de forma práctica, experimentando con tecnología y compartiendo lo que descubro.
 
-**Intereses:**
-- Ciberseguridad y CTFs
-- Análisis y visualización de datos
-- Desarrollo y automatización
-- Linux y sistemas open source
+- **Intereses:**
+  - Linux y open source
+  - Automatización y desarrollo
+  - Ciberseguridad y CTFs

@@ -7,7 +7,7 @@ I'm passionate about technology, digital security and information analysis. I'm 
 
 I enjoy learning hands-on, experimenting with technology and sharing what I discover.
 
-**Interests:**
-- Linux and open source
-- Development and automation
-- Cybersecurity and CTFs
+- **Interests:**
+  - Linux and open source
+  - Development and automation
+  - Cybersecurity and CTFs
