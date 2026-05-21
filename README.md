@@ -8,7 +8,7 @@ Blog personal multilingüe construido con [Hugo](https://gohugo.io/) y desplegad
 
 | Herramienta | Versión | Rol |
 |-------------|---------|-----|
-| [Hugo](https://gohugo.io/) | ≥ 0.110 Extended (Debian 13: `0.131.0` via apt) | Generador de sitio estático |
+| [Hugo](https://gohugo.io/) | `0.161.1` Extended | Generador de sitio estático |
 | [hugo-coder](https://github.com/luizdepra/hugo-coder) | ~2.8.x (git submodule) | Tema |
 | [Cloudflare Pages](https://pages.cloudflare.com/) | — | Hosting / CDN / despliegue |
 | Markdown / Goldmark | bundled con Hugo | Formato de contenido |
@@ -53,12 +53,34 @@ datadelico_blog/
 Instala **Hugo Extended** y **git**:
 
 ```bash
-# Debian 13 (Trixie) — apt incluye Hugo Extended 0.131.0 directamente
-sudo apt update && sudo apt install hugo git
+# Este proyecto usa exactamente Hugo 0.161.1 (ver .tool-versions)
+# Debian 13 (Trixie) se queda en 0.131.0 por apt, así que conviene usar
+# el .deb oficial de Hugo Extended
+sudo apt update && sudo apt install git
 
 # Verificar que es Extended
-hugo version   # debe mostrar "hugo v0.131.0+extended"
+hugo version   # debe mostrar "hugo v0.161.1+extended"
 ```
+
+### Instalar exactamente la versión del proyecto (`0.161.1`)
+
+```bash
+# Eliminar una versión antigua instalada por apt (si existe)
+sudo apt remove -y hugo
+
+# Descargar e instalar Hugo Extended 0.161.1
+curl -fL https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_extended_0.161.1_linux-amd64.deb \
+  -o /tmp/hugo_extended_0.161.1_linux-amd64.deb
+sudo dpkg -i /tmp/hugo_extended_0.161.1_linux-amd64.deb
+
+# Si bash sigue recordando la ruta antigua (/usr/bin/hugo)
+hash -r
+
+# Verificar versión final
+hugo version
+```
+
+> La versión fijada por el proyecto está en `.tool-versions`: `hugo 0.161.1`.
 
 <details>
 <summary>Otras plataformas</summary>
@@ -71,8 +93,8 @@ brew install hugo
 scoop install hugo-extended
 
 # Cualquier Linux — descargar el .deb Extended oficial de GitHub
-wget https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_extended_0.131.0_linux-amd64.deb
-sudo dpkg -i hugo_extended_0.131.0_linux-amd64.deb
+wget https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_extended_0.161.1_linux-amd64.deb
+sudo dpkg -i hugo_extended_0.161.1_linux-amd64.deb
 ```
 </details>
 
@@ -224,7 +246,7 @@ Configuración recomendada en el dashboard de Cloudflare Pages:
 | Framework preset | Hugo |
 | Build command | `hugo --gc --minify` |
 | Build output directory | `public` |
-| Environment variable `HUGO_VERSION` | `0.131.0` |
+| Environment variable `HUGO_VERSION` | `0.161.1` |
 | Environment variable `HUGO_ENV` | `production` |
 
 ---
