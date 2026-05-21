@@ -179,7 +179,7 @@ Configuración recomendada en el dashboard de Cloudflare Pages:
 | Framework preset | Hugo |
 | Build command | `hugo --gc --minify` |
 | Build output directory | `public` |
-| Environment variable `HUGO_VERSION` | `0.147.0` (o la versión deseada) |
+| Environment variable `HUGO_VERSION` | `0.124.1` |
 | Environment variable `HUGO_ENV` | `production` |
 
 ---
