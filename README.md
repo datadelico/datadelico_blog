@@ -25,17 +25,22 @@ datadelico_blog/
 ├── archetypes/           # Plantillas de front matter para hugo new
 ├── config.toml           # Configuración principal del sitio
 ├── content/              # Contenido Markdown fuente
-│   ├── _index.md         # Página de inicio
+│   ├── _index.md         # Página de inicio (ES)
+│   ├── _index.en.md      # Página de inicio (EN)
 │   ├── posts/            # Entradas del blog
-│   └── quien soy/        # Página "About"
-├── resources/            # Assets procesados por Hugo Pipes
+│   ├── quien-soy/        # Página "Quién soy / About"
+│   ├── writeups/         # Write-ups de máquinas y CTFs
+│   └── contacto/         # Página de contacto
+├── layouts/
+│   └── partials/         # Sobreescrituras de parciales del tema
+├── resources/            # Caché de assets generados por Hugo Pipes (ignorado en git)
 ├── static/               # Archivos estáticos copiados tal cual al output
 │   └── images/           # Imágenes (avatar, favicon, etc.)
 ├── themes/
 │   └── hugo-coder/       # Tema (git submodule)
 ├── .github/
 │   └── copilot-instructions.md
-├── public/               # ⚠️ Output generado — no editar a mano
+├── public/               # ⚠️ Output generado — no editar a mano (ignorado en git)
 └── .gitmodules
 ```
 
@@ -111,7 +116,40 @@ El sitio generado queda en `public/`. Cloudflare Pages lo despliega automáticam
 
 ---
 
-## Configuración del sitio (`config.toml`)
+## Comandos útiles de desarrollo
+
+```bash
+# Servidor local con drafts (recarga automática)
+hugo server -D
+
+# Servidor accesible desde la red local
+hugo server -D --bind 0.0.0.0 --port 1313
+
+# Build de producción (sin drafts, minificado, limpia caché)
+hugo --gc --minify
+
+# Build incluyendo drafts (para previsualizar el output final)
+hugo -D --gc --minify
+
+# Limpiar el output y regenerar desde cero
+rm -rf public/ && hugo --gc --minify
+
+# Crear una nueva entrada de blog
+hugo new posts/mi-nueva-entrada.md
+
+# Crear un nuevo write-up
+hugo new writeups/nombre-de-la-maquina.md
+
+# Actualizar el tema (submodule)
+git submodule update --remote themes/hugo-coder
+
+# Comprobar versión de Hugo (debe ser +extended)
+hugo version
+```
+
+---
+
+
 
 Los principales parámetros a personalizar:
 
@@ -129,15 +167,14 @@ Los principales parámetros a personalizar:
 
 ## Idiomas (Multilingual)
 
-El sitio está configurado para tres idiomas en `config.toml`:
+El sitio está configurado para dos idiomas en `config.toml`:
 
 | Código | Idioma | Estado |
 |--------|--------|--------|
 | `es` | Español (por defecto) | ✅ Activo |
-| `en` | English | 🚧 Menú definido |
-| `pt-br` | Português (Brasil) | 🚧 Menú definido |
+| `en` | English | ✅ Activo |
 
-El contenido en español se ubica en `content/`. Para añadir traducciones, crea archivos con sufijo de idioma (p. ej. `primera-entrada.en.md`) o usa directorios de idioma siguiendo la [documentación de Hugo Multilingual](https://gohugo.io/content-management/multilingual/).
+El contenido en español usa el archivo base (`_index.md`, `primera-entrada.md`). Las traducciones al inglés usan el sufijo `.en.md` en el mismo directorio (p. ej. `_index.en.md`). Consulta la [documentación de Hugo Multilingual](https://gohugo.io/content-management/multilingual/) para más detalles.
 
 ---
 
