@@ -3,12 +3,11 @@ title: "About me"
 type: page
 description: "Who I am, my interests and background."
 ---
-I'm passionate about computer science, cybersecurity and data. I enjoy exploring both the technical and creative sides of technology: from programming and systems to data analysis and security.
+I'm passionate about technology, digital security and information analysis. I'm interested in understanding how systems work and applying that knowledge across different technical domains.
 
-I like learning hands-on, tinkering with machines, understanding how things work under the hood, and sharing what I discover along the way.
+I enjoy learning hands-on, experimenting with technology and sharing what I discover.
 
 **Interests:**
-- Cybersecurity and CTFs
-- Data analysis and visualisation
+- Linux and open source
 - Development and automation
-- Linux and open source systems
+- Cybersecurity and CTFs
