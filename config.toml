@@ -1,7 +1,6 @@
 baseURL = "https://datadelico.com"
 title = "Datadelico"
 theme = "hugo-coder"
-languageCode = "es"
 defaultContentLanguage = "es"
 enableEmoji = true
 resourceDir = "./resources"
@@ -153,7 +152,8 @@ rel = "alternate"
 type = "application/rss+xml"
 
 [languages.es]
-languageName = "🇪🇸"
+label = "🇪🇸"
+locale = "es"
 title = "Datadelico"
 weight = 1
 contentDir = "content/"
@@ -184,7 +184,8 @@ weight = 4
 url = "contacto/"
 
 [languages.en]
-languageName = "🇬🇧"
+label = "🇬🇧"
+locale = "en"
 title = "Datadelico"
 weight = 2
 contentDir = "content/"
