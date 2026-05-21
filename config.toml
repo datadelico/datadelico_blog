@@ -154,7 +154,7 @@ rel = "alternate"
 type = "application/rss+xml"
 
 [languages.es]
-languageName = ":es:"
+languageName = "🇪🇸"
 title = "Datadelico"
 weight = 1
 contentDir = "content/"
@@ -180,7 +180,7 @@ weight = 5
 url = "quien-soy/contacto/"
 
 [languages.en]
-languageName = ":uk:"
+languageName = "🇬🇧"
 title = "Datadelico"
 weight = 2
 
