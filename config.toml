@@ -153,13 +153,46 @@ url = "https://datadelico.com/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
+[languages.es]
+languageName = ":es:"
+title = "Datadelico"
+weight = 1
+contentDir = "content/"
+
+[languages.es.params]
+info = "Datadelico podría ser un espacio en el que se exploran los aspectos más misteriosos y fascinantes de los datos."
+description = "Datadelico podría ser un espacio en el que se exploran los aspectos más misteriosos y fascinantes de los datos."
+keywords = "blog,desarrollador,personal"
+
+[[languages.es.menu.main]]
+name = "Quién soy"
+weight = 1
+url = "quien-soy/"
+
+[[languages.es.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.es.menu.main]]
+name = "Contacto"
+weight = 5
+url = "quien-soy/contacto/"
+
 [languages.en]
 languageName = ":uk:"
+title = "Datadelico"
+weight = 2
+
+[languages.en.params]
+info = "Datadelico could be a space where the most mysterious and fascinating aspects of data are explored."
+description = "Datadelico could be a space where the most mysterious and fascinating aspects of data are explored."
+keywords = "blog,developer,personal"
 
 [[languages.en.menu.main]]
 name = "About"
 weight = 1
-url = "about/"
+url = "quien-soy/"
 
 [[languages.en.menu.main]]
 name = "Blog"
@@ -167,50 +200,9 @@ weight = 2
 url = "posts/"
 
 [[languages.en.menu.main]]
-name = "Projects"
-weight = 3
-url = "projects/"
-
-[[languages.en.menu.main]]
-name = "Contact me"
+name = "Contact"
 weight = 5
-url = "contact/"
-
-[languages.pt-br]
-languageName = ":brazil:"
-title = "João Ninguém"
-
-[languages.pt-br.params]
-author = "João Ninguém"
-info = "Full Stack DevOps e Mágico"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
-
-[[languages.pt-br.menu.main]]
-name = "Sobre"
-weight = 1
-url = "about/"
-
-[[languages.pt-br.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
-
-[[languages.pt-br.menu.main]]
-name = "Projetos"
-weight = 3
-url = "projects/"
-
-[[languages.pt-br.menu.main]]
-name = "Contato"
-weight = 5
-url = "contact/"
-
-[languages]
-  [languages.es]
-    title = "Datadelico"
-    weight = 1
-    contentDir = "content/"
+url = "quien-soy/contacto/"
 
 [sitemap]
   changefreq = "monthly"
