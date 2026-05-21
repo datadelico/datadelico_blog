@@ -5,7 +5,6 @@ languageCode = "es"
 defaultContentLanguage = "es"
 enableEmoji = true
 resourceDir = "./resources"
-SectionPagesMenu = "main"
 enableRobotsTXT = true
 
 [pagination]
@@ -188,6 +187,7 @@ url = "contacto/"
 languageName = "🇬🇧"
 title = "Datadelico"
 weight = 2
+contentDir = "content/"
 
 [languages.en.params]
 info = "Datadelico could be a space where the most mysterious and fascinating aspects of data are explored."
