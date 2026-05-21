@@ -38,8 +38,6 @@ datadelico_blog/
 │   └── images/           # Imágenes (avatar, favicon, etc.)
 ├── themes/
 │   └── hugo-coder/       # Tema (git submodule)
-├── .github/
-│   └── copilot-instructions.md
 ├── public/               # ⚠️ Output generado — no editar a mano (ignorado en git)
 └── .gitmodules
 ```
