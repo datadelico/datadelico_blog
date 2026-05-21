@@ -27,7 +27,7 @@ datadelico_blog/
 ├── content/              # Contenido Markdown fuente
 │   ├── _index.md         # Página de inicio (ES)
 │   ├── _index.en.md      # Página de inicio (EN)
-│   ├── posts/            # Entradas del blog
+│   ├── blog/             # Entradas del blog
 │   ├── quien-soy/        # Página "Quién soy / About"
 │   ├── writeups/         # Write-ups de máquinas y CTFs
 │   └── contacto/         # Página de contacto
@@ -101,10 +101,10 @@ La flag `-D` incluye los posts en estado `draft: true`.
 ### 4. Crear una nueva entrada
 
 ```bash
-hugo new posts/mi-nueva-entrada.md
+hugo new blog/mi-nueva-entrada.md
 ```
 
-El archivo se crea en `content/posts/` con `draft: true`. Edita el contenido y cambia `draft: false` cuando esté listo para publicar.
+El archivo se crea en `content/blog/` con `draft: true`. Edita el contenido y cambia `draft: false` cuando esté listo para publicar.
 
 ### 5. Build de producción
 
@@ -135,7 +135,7 @@ hugo -D --gc --minify
 rm -rf public/ && hugo --gc --minify
 
 # Crear una nueva entrada de blog
-hugo new posts/mi-nueva-entrada.md
+hugo new blog/mi-nueva-entrada.md
 
 # Crear un nuevo write-up
 hugo new writeups/nombre-de-la-maquina.md
